@@ -19,9 +19,8 @@ eg:
 from MakeTreeDir import MAKETREEDIR
 MAKETREEDIR().makedir('this/is/a/testing/package/creation')
 
-The folders will be created instantly.
-
 ```
+The folders will be created instantly.
 ## Authors
 
 * **Sreekiran A R** - *Analytics Consultant, AI Labs, Bridgei2i Analytics Solutions* -
