@@ -24,7 +24,7 @@ class MAKETREEDIR:
 			dirs=dir_path.split(sep)
 			if len(dirs[0])==0:
 				dirs[1]=sep+dirs[1]
-			dirs=dirs[1:]
+				dirs=dirs[1:]
 			for i,fol in enumerate(dirs):
 				path=dirs[:i+1]
 				directory=os.path.join(*path)
