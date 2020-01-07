@@ -17,7 +17,13 @@ This wrapper has already done it and you can create any folder tree structure in
 eg:
 ```python
 from MakeTreeDir import MAKETREEDIR
-MAKETREEDIR().makedir('this/is/a/testing/package/creation')
+md=MAKETREEDIR()
+md.makedir('this/is/a/testing/package/creation')
+
+### Corner cases
+md.makedir('/media/username/New Volume/folderName')
+md.makedir('../../../folderName')
+md.makedir('C:\\Users\\userName\\folderName')
 
 ```
 The folders will be created instantly.
