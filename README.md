@@ -7,7 +7,7 @@ OS wrapper python package which checks if a given folder tree path exists and cr
 
 Once you have cloned the repository, you can easily install by
 
-`pip install .`
+`pip install MakeTreeDir`
 
 ### Usage
 
