@@ -38,8 +38,9 @@ class MAKETREEDIR:
 			for i,fol in enumerate(dirs):
 				path=dirs[:i+1]
 				directory=os.path.join(*path)
-				os.makedirs(directory,exist_ok=True)
-				
+				if not os.path.exists(directory):
+					os.makedirs(directory)
+
 		except Exception as e:
 			return e
 
