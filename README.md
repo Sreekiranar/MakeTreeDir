@@ -29,7 +29,7 @@ md.makedir('C:\\Users\\userName\\folderName')
 The folders will be created instantly.
 ## Authors
 
-* **Sreekiran A R** - *Analytics Consultant, AI Labs, Bridgei2i Analytics Solutions* -
+* **Sreekiran A R** - *Senior Analytics Consultant, AI Labs, Bridgei2i Analytics Solutions* -
  [Github](https://github.com/Sreekiranar) ,
 [Stackoverflow](https://stackoverflow.com/users/9605907/sreekiran)
 
